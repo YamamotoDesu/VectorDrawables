@@ -1,5 +1,5 @@
 # **[VectorDrawables](https://developer.android.com/guide/topics/graphics/vector-drawable-resources#vector-drawable-class)** 
-A VectorDrawable is a vector graphic defined in an XML file as a set of points, lines, and curves along with its associated color information.  
+> A VectorDrawable is a vector graphic defined in an XML file as a set of points, lines, and curves along with its associated color information.  
 The major advantage of using a vector drawable is image scalability.  
 It can be scaled without loss of display quality, which means the same file is resized for different screen densities without loss of image quality.  
 This results in smaller APK files and less developer maintenance.  
