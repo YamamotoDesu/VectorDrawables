@@ -1,4 +1,9 @@
-# **[VectorDrawables](https://medium.com/androiddevelopers/using-vector-assets-in-android-apps-4318fd662eb9)** 
+# **[VectorDrawables](https://developer.android.com/guide/topics/graphics/vector-drawable-resources#vector-drawable-class)** 
+A VectorDrawable is a vector graphic defined in an XML file as a set of points, lines, and curves along with its associated color information.  
+The major advantage of using a vector drawable is image scalability.  
+It can be scaled without loss of display quality, which means the same file is resized for different screen densities without loss of image quality.  
+This results in smaller APK files and less developer maintenance.  
+You can also use vector images for animation by using multiple XML files instead of multiple images for each display resolution.
 
 ## 1. Enable Support
 You need to opt in to AndroidX vector support in your app’s build.gradle:
